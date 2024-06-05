@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="251.0" prefWidth="370.0" style="-fx-background-color: #0f3538;" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.safranboluterminali.SplashController">
+   <children>
+      <Label layoutX="52.0" layoutY="63.0" text="Hoşgeldiniz" textFill="WHITE">
+         <font>
+            <Font name="Rockwell" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="136.0" text="Giriş başarılı yönlendiriliyorsunuz..." textFill="WHITE">
+         <font>
+            <Font name="Raanana" size="15.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="loadingProgressBar" layoutX="86.0" layoutY="182.0" prefWidth="200.0" progress="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="kirkAltiKoltukPane" prefHeight="223.0" prefWidth="624.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.safranboluterminali.KirkAltiKoltukController">
+   <children>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="14.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../../../Images/direksiyon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="koltuk1Button" layoutX="68.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="1" />
+      <Button fx:id="koltuk2Button" layoutX="68.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="2" />
+      <Button fx:id="koltuk3Button" layoutX="68.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="3" />
+      <Button fx:id="koltuk4Button" layoutX="68.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="4" />
+      <Button fx:id="koltuk5Button" layoutX="112.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="5" />
+      <Button fx:id="koltuk6Button" layoutX="112.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="6" />
+      <Button fx:id="koltuk7Button" layoutX="112.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="7" />
+      <Button fx:id="koltuk8Button" layoutX="112.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="8" />
+      <Button fx:id="koltuk9Button" layoutX="155.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="9" />
+      <Button fx:id="koltuk10Button" layoutX="155.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="10" />
+      <Button fx:id="koltuk11Button" layoutX="155.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="11" />
+      <Button fx:id="koltuk12Button" layoutX="155.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="12" />
+      <Button fx:id="koltuk13Button" layoutX="198.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="13" />
+      <Button fx:id="koltuk14Button" layoutX="198.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="14" />
+      <Button fx:id="koltuk15Button" layoutX="198.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="15" />
+      <Button fx:id="koltuk16Button" layoutX="198.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="16" />
+      <Button fx:id="koltuk17Button" layoutX="241.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="17" />
+      <Button fx:id="koltuk18Button" layoutX="241.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="18" />
+      <Button fx:id="koltuk19Button" layoutX="241.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="19" />
+      <Button fx:id="koltuk20Button" layoutX="241.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="20" />
+      <Button fx:id="koltuk21Button" layoutX="286.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="21" />
+      <Button fx:id="koltuk22Button" layoutX="286.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="22" />
+      <Button fx:id="koltuk23Button" layoutX="331.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="23" />
+      <Button fx:id="koltuk24Button" layoutX="331.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="24" />
+      <Button fx:id="koltuk25Button" layoutX="331.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="25" />
+      <Button fx:id="koltuk26Button" layoutX="331.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="26" />
+      <Button fx:id="koltuk27Button" layoutX="374.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="27" />
+      <Button fx:id="koltuk28Button" layoutX="374.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="28" />
+      <Button fx:id="koltuk29Button" layoutX="374.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="29" />
+      <Button fx:id="koltuk30Button" layoutX="374.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="30" />
+      <Button fx:id="koltuk31Button" layoutX="417.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="31" />
+      <Button fx:id="koltuk32Button" layoutX="417.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="32" />
+      <Button fx:id="koltuk33Button" layoutX="417.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="33" />
+      <Button fx:id="koltuk34Button" layoutX="417.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="34" />
+      <Button fx:id="koltuk35Button" layoutX="463.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="35" />
+      <Button fx:id="koltuk36Button" layoutX="463.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="36" />
+      <Button fx:id="koltuk37Button" layoutX="463.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="37" />
+      <Button fx:id="koltuk38Button" layoutX="463.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="38" />
+      <Button fx:id="koltuk39Button" layoutX="507.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="39" />
+      <Button fx:id="koltuk40Button" layoutX="507.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="40" />
+      <Button fx:id="koltuk41Button" layoutX="507.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="41" />
+      <Button fx:id="koltuk42Button" layoutX="507.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="42" />
+      <Button fx:id="koltuk43Button" layoutX="551.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="43" />
+      <Button fx:id="koltuk44Button" layoutX="551.0" layoutY="124.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="44" />
+      <Button fx:id="koltuk45Button" layoutX="551.0" layoutY="59.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="45" />
+      <Button fx:id="koltuk46Button" layoutX="551.0" layoutY="17.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" text="46" />
+   </children>
+</AnchorPane>

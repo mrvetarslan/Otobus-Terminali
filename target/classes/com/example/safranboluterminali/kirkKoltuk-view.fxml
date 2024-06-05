@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="kirkKoltukPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="223.0" prefWidth="699.0" style="-fx-background-color: #E3E3E3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.safranboluterminali.KirkKoltukController">
+   <children>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="14.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../../../Images/direksiyon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="koltuk1Button" layoutX="68.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="1" textAlignment="CENTER" />
+      <Button fx:id="koltuk4Button" layoutX="113.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="4" textAlignment="CENTER" />
+      <Button fx:id="koltuk7Button" layoutX="158.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="7" textAlignment="CENTER" />
+      <Button fx:id="koltuk10Button" layoutX="203.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="10" textAlignment="CENTER" />
+      <Button fx:id="koltuk13Button" layoutX="248.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="13" textAlignment="CENTER" />
+      <Button fx:id="koltuk16Button" layoutX="293.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="16" textAlignment="CENTER" />
+      <Button fx:id="koltuk19Button" layoutX="338.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="19" textAlignment="CENTER" />
+      <Button fx:id="koltuk20Button" layoutX="383.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="20" textAlignment="CENTER" />
+      <Button fx:id="koltuk26Button" layoutX="474.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="26" textAlignment="CENTER" />
+      <Button fx:id="koltuk29Button" layoutX="519.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="29" textAlignment="CENTER" />
+      <Button fx:id="koltuk32Button" layoutX="564.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="32" textAlignment="CENTER" />
+      <Button fx:id="koltuk23Button" layoutX="428.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="23" textAlignment="CENTER" />
+      <Button fx:id="koltuk37Button" layoutX="654.0" layoutY="167.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="37" textAlignment="CENTER" />
+      <Button fx:id="koltuk36Button" layoutX="607.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="36" textAlignment="CENTER" />
+      <Button fx:id="koltuk35Button" layoutX="607.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="35" textAlignment="CENTER" />
+      <Button fx:id="koltuk33Button" layoutX="561.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="33" textAlignment="CENTER" />
+      <Button fx:id="koltuk30Button" layoutX="519.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="30" textAlignment="CENTER" />
+      <Button fx:id="koltuk27Button" layoutX="474.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="27" textAlignment="CENTER" />
+      <Button fx:id="koltuk24Button" layoutX="428.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="24" textAlignment="CENTER" />
+      <Button fx:id="koltuk21Button" layoutX="383.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="21" textAlignment="CENTER" />
+      <Button fx:id="koltuk17Button" layoutX="293.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="17" textAlignment="CENTER" />
+      <Button fx:id="koltuk18Button" layoutX="293.0" layoutY="16.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="18" textAlignment="CENTER" />
+      <Button fx:id="koltuk22Button" layoutX="383.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="22" textAlignment="CENTER" />
+      <Button fx:id="koltuk25Button" layoutX="428.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="25" textAlignment="CENTER" />
+      <Button fx:id="koltuk28Button" layoutX="474.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="28" textAlignment="CENTER" />
+      <Button fx:id="koltuk31Button" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="31" textAlignment="CENTER" />
+      <Button fx:id="koltuk34Button" layoutX="561.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="34" textAlignment="CENTER" />
+      <Button fx:id="koltuk2Button" layoutX="68.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="2" textAlignment="CENTER" />
+      <Button fx:id="koltuk3Button" layoutX="68.0" layoutY="16.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="3" textAlignment="CENTER" />
+      <Button fx:id="koltuk5Button" layoutX="113.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="5" textAlignment="CENTER" />
+      <Button fx:id="koltuk6Button" layoutX="113.0" layoutY="16.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="6" textAlignment="CENTER" />
+      <Button fx:id="koltuk8Button" layoutX="158.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="8" textAlignment="CENTER" />
+      <Button fx:id="koltuk9Button" layoutX="158.0" layoutY="16.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="9" textAlignment="CENTER" />
+      <Button fx:id="koltuk11Button" layoutX="203.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="11" textAlignment="CENTER" />
+      <Button fx:id="koltuk12Button" layoutX="203.0" layoutY="16.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="12" textAlignment="CENTER" />
+      <Button fx:id="koltuk14Button" layoutX="248.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="14" textAlignment="CENTER" />
+      <Button fx:id="koltuk15Button" layoutX="248.0" layoutY="16.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="15" textAlignment="CENTER" />
+      <Button fx:id="koltuk39Button" layoutX="654.0" layoutY="61.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="39" textAlignment="CENTER" />
+      <Button fx:id="koltuk40Button" layoutX="654.0" layoutY="14.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="40" textAlignment="CENTER" />
+      <Button fx:id="koltuk38Button" layoutX="654.0" layoutY="125.0" mnemonicParsing="false" onAction="#koltukMethod" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white;" text="38" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
